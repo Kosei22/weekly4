@@ -1,0 +1,172 @@
+body {
+  margin: 0 0;
+  background-color: rgb(60, 168, 60);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  height: 100px;
+  border-bottom: black solid 0.3px;
+  background-color: blueviolet;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+.header-contact {
+  float: right;
+  margin-top: 45px;
+  margin-right: 40px;
+  font-size: 20px;
+}
+.header-logo a {
+  float: left;
+  margin-top: 60px;
+  margin-left: 80px;
+  color: white;
+  font-size: 25px;
+}
+.header-contact a {
+  color: white;
+}
+.header-logo {
+  float: left;
+}
+.header-logo img {
+  float: left;
+  height: 100px;
+}
+
+.Travel_Box {
+  display: flex;
+}
+.Travel_Box_Main {
+  display: flex;
+  margin-top: 40px;
+}
+.slide {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+  margin-left: 210px;
+  margin-bottom: 30px;
+}
+.slide1 {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+  margin-bottom: 30px;
+}
+.slide img {
+  display: block;
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  opacity: 5%;
+  animation: slideAnime 12s ease infinite;
+}
+.slide1 img {
+  display: block;
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  opacity: 5%;
+  animation: slideAnime 12s ease infinite;
+}
+.Info {
+  width: 460px;
+  height: 360px;
+  background-color: white;
+  padding: 20px;
+  background-color: rgb(60, 168, 60);
+}
+.Info1 {
+  width: 460px;
+  height: 360px;
+  background-color: white;
+  margin-left: 210px;
+  padding: 20px;
+  background-color: rgb(60, 168, 60);
+}
+.Country {
+  font-size: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.information {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20;
+  color: white;
+}
+.Pic {
+  border-radius: 3%;
+}
+.slide img:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.slide img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+.slide img:nth-of-type(3) {
+  animation-delay: 8s;
+}
+.slide1 img:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.slide1 img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+.slide1 img:nth-of-type(3) {
+  animation-delay: 8s;
+}
+@keyframes slideAnime {
+  0% {
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  41% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+.Cont {
+  margin: 70px;
+  background-color: blueviolet;
+}
+.footer-left {
+  float: left;
+}
+.footer-left img {
+  height: 100px;
+}
+.footer-right {
+  float: right;
+  margin-right: 50px;
+  color: black;
+}
+.footer-right a {
+  color: white;
+}
+footer {
+  height: 100px;
+  background-color: blueviolet;
+}

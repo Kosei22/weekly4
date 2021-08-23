@@ -1,0 +1,158 @@
+body {
+  margin: 0 0;
+}
+header {
+  height: 100px;
+  border-bottom: black solid 0.3px;
+  background-color: blueviolet;
+}
+a:hover {
+  opacity: 0.7;
+}
+.header-contact {
+  float: right;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.header-contact a {
+  color: white;
+}
+.header-logo {
+  float: left;
+}
+.header-logo img {
+  float: left;
+  height: 100px;
+}
+.header-logo a {
+  float: left;
+  margin-top: 60px;
+  margin-left: 50px;
+  color: white;
+}
+.Travel_Box {
+  display: flex;
+  background-color: rgba(20, 139, 28, 0.5);
+}
+.Travel_Box_Main {
+  display: flex;
+  background-color: rgba(20, 139, 28, 0.5);
+  margin-top: 40px;
+}
+.slide {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+  margin-left: 250px;
+  border-bottom: solid black 4px;
+  border-left: solid black 4px;
+  border-top: solid black 4px;
+  margin-bottom: 30px;
+}
+.slide1 {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+  border-bottom: solid black 4px;
+  border-right: solid black 4px;
+  border-top: solid black 4px;
+  margin-bottom: 30px;
+}
+.slide img {
+  display: block;
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  opacity: 5%;
+  animation: slideAnime 12s ease infinite;
+}
+.slide1 img {
+  display: block;
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  opacity: 5%;
+  animation: slideAnime 12s ease infinite;
+}
+.Info {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  border-bottom: solid black 4px;
+  border-right: solid black 4px;
+  border-top: solid black 4px;
+}
+.Info1 {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  border-bottom: solid black 4px;
+  border-left: solid black 4px;
+  border-top: solid black 4px;
+  margin-left: 250px;
+}
+.Country {
+  font-size: 30px;
+  text-align: center;
+}
+.slide img:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.slide img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+.slide img:nth-of-type(3) {
+  animation-delay: 8s;
+}
+.slide1 img:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.slide1 img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+.slide1 img:nth-of-type(3) {
+  animation-delay: 8s;
+}
+@keyframes slideAnime {
+  0% {
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  41% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.information {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 20px;
+}
+.footer-left {
+  float: left;
+}
+.footer-left img {
+  height: 100px;
+}
+.footer-right {
+  float: right;
+  margin-right: 50px;
+  color: black;
+}
+.footer-right a {
+  color: white;
+}
+footer {
+  height: 100px;
+  background-color: blueviolet;
+}

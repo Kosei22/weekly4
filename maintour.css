@@ -1,0 +1,295 @@
+body {
+  margin: 0 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(20, 139, 28, 0.5);
+}
+@media screen and (min-width: 750px) {
+  header {
+    height: 100px;
+    border-bottom: black solid 0.3px;
+    background-color: blueviolet;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    opacity: 0.7;
+  }
+  .header-contact {
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+  }
+  .header-contact a {
+    color: white;
+  }
+  .header-logo {
+    float: left;
+  }
+  .header-logo img {
+    float: left;
+    height: 100px;
+  }
+  .header-logo a {
+    float: left;
+    margin-top: 60px;
+    margin-left: 50px;
+    color: white;
+  }
+  .head-box {
+    height: 700px;
+    position: relative;
+    background-image: url("europa-head.jpeg");
+    background-size: cover;
+    overflow: hidden;
+  }
+  .head-box img {
+    width: 100%;
+    opacity: 0.7;
+  }
+  .head-box h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .head-intro {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  .country-box img {
+    height: 250px;
+    width: 250px;
+  }
+  .europe-box {
+    height: 250px;
+    border: solid black 1px;
+    margin-top: 70px;
+  }
+  .europe-img {
+    float: left;
+  }
+  .europe-text {
+    margin-top: 50px;
+    margin-left: 270px;
+    color: black;
+  }
+  .asia-box {
+    height: 250px;
+    border: solid black 1px;
+    margin-top: 70px;
+  }
+  .asia-img {
+    float: right;
+  }
+  .asia-text {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: black;
+  }
+  .southamerica-box {
+    height: 250px;
+    border: solid black 1px;
+    margin-top: 50px;
+  }
+  .southamerica-img {
+    float: right;
+  }
+  .southamerica-text {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: black;
+  }
+  .africa-box {
+    height: 250px;
+    border: solid black 1px;
+    margin-top: 50px;
+  }
+  .africa-img {
+    float: left;
+  }
+  .africa-text {
+    margin-top: 50px;
+    margin-left: 270px;
+    color: black;
+  }
+  .middle-box {
+    margin: 40px 20px;
+    border-top: black solid 1px;
+  }
+  .middle-box h2 {
+    color: royalblue;
+  }
+  .middle-box h3 {
+    color: indianred;
+  }
+  .about-box {
+    margin: 70px 10px;
+    border-top: black solid 1px;
+    display: flex;
+    justify-content: center;
+  }
+  .about-text {
+    margin-top: 50px;
+  }
+  .about-insta {
+    margin-top: 30px;
+  }
+  .footer-left {
+    float: left;
+  }
+  .footer-left img {
+    height: 100px;
+  }
+  .footer-right {
+    float: right;
+    margin-right: 50px;
+    color: black;
+  }
+  .footer-right a {
+    color: white;
+  }
+  footer {
+    height: 100px;
+    background-color: blueviolet;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header-logo a {
+    float: left;
+    margin-top: 60px;
+    margin-left: 80px;
+    color: white;
+    font-size: 25px;
+  }
+  .header-contact {
+    float: right;
+    margin-top: 45px;
+    margin-right: 40px;
+    font-size: 20px;
+  }
+  .header-contact a {
+    color: white;
+  }
+  .head-box h1 {
+    margin: 50px 430px;
+    color: white;
+    font-size: 60px;
+  }
+  .head-box img {
+    width: 80%;
+    height: 700px;
+    opacity: 0.7;
+  }
+  .head-intro {
+    width: 70%;
+    margin-top: 260px;
+    margin-left: 250px;
+    font-size: 20px;
+  }
+  .country-box img {
+    height: 300px;
+    width: 300px;
+  }
+  .europe-box {
+    height: 300px;
+    border: solid black 1px;
+    margin-top: 70px;
+    width: 900px;
+    margin-left: 20px;
+  }
+  .europe-box:hover {
+    opacity: 0.7;
+  }
+
+  .europe-text {
+    margin-top: 80px;
+    margin-left: 350px;
+    width: 500px;
+    color: black;
+  }
+  .asia-box {
+    float: right;
+    height: 300px;
+    border: solid black 1px;
+    margin-top: 50px;
+    width: 900px;
+    margin-right: 20px;
+  }
+  .asia-box:hover {
+    opacity: 0.7;
+  }
+
+  .asia-text {
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 500px;
+    color: black;
+  }
+  .southamerica-box {
+    float: right;
+    height: 300px;
+    border: solid black 1px;
+    margin-top: 50px;
+    width: 900px;
+    margin-right: 20px;
+  }
+  .southamerica-box:hover {
+    opacity: 0.7;
+  }
+  .southamerica-text {
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 500px;
+    color: black;
+  }
+  .africa-box {
+    height: 300px;
+    border: solid black 1px;
+    margin-top: 400px;
+    width: 900px;
+    margin-left: 20px;
+  }
+  .africa-box:hover {
+    opacity: 0.7;
+  }
+  .africa-text {
+    margin-top: 70px;
+    margin-left: 330px;
+    width: 550px;
+    color: black;
+  }
+  .head-box {
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+  }
+  .head-box:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("europa-head.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-animation: zoom 20s 1;
+    animation: zoom 20s 1;
+    animation-fill-mode: backwards;
+  }
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+  .head-intro {
+    margin-top: 70px;
+  }
+  .middle-box {
+    margin-top: 500px;
+  }
+}
